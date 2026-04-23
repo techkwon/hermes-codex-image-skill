@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import subprocess
 from pathlib import Path
 
@@ -48,8 +49,8 @@ def test_discover_new_image_prefers_latest_file(tmp_path: Path) -> None:
     b = root / "b.png"
     a.write_bytes(b"a")
     b.write_bytes(b"b")
-    a.touch()
-    b.touch()
+    os.utime(a, ns=(1_000_000_000, 1_000_000_000))
+    os.utime(b, ns=(2_000_000_000, 2_000_000_000))
     found = codex_runner.discover_new_image(
         tmp_path / "generated_images",
         0,
