@@ -145,6 +145,7 @@ Choose one:
 - visual flow → [VISUAL_QUICKSTART.md](VISUAL_QUICKSTART.md)
 - troubleshooting → [TROUBLESHOOTING_QUICK.md](TROUBLESHOOTING_QUICK.md)
 - preview/share copy → [GITHUB_PREVIEW_COPY.md](GITHUB_PREVIEW_COPY.md)
+- Instagram promo pack → [INSTAGRAM_PROMO_PACK.md](INSTAGRAM_PROMO_PACK.md)
 
 ---
 

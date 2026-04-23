@@ -68,6 +68,7 @@ If something fails, check these 5 first:
 Quick guide: [docs/TROUBLESHOOTING_QUICK.md](docs/TROUBLESHOOTING_QUICK.md)
 Beginner FAQ: [docs/FAQ.md](docs/FAQ.md)
 Preview copy: [docs/GITHUB_PREVIEW_COPY.md](docs/GITHUB_PREVIEW_COPY.md)
+Instagram promo pack: [docs/INSTAGRAM_PROMO_PACK.md](docs/INSTAGRAM_PROMO_PACK.md)
 
 ## Start here
 
