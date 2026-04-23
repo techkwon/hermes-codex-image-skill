@@ -152,7 +152,7 @@ def discover_new_image(root: Path, started_at: float, session_id: str | None = N
             break
     if not candidates:
         return None
-    candidates.sort(key=lambda p: p.stat().st_mtime)
+    candidates.sort(key=lambda p: p.stat().st_mtime_ns)
     return candidates[-1]
 
 
