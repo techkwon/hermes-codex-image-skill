@@ -79,9 +79,10 @@ Explain the repo in one sentence like this:
 1. `README.md` — human overview
 2. `docs/HERMES_AGENT_INSTALL.md` — beginner + agent install guide
 3. `docs/README.ko.md` — Korean beginner-friendly guide
-4. `skill/SKILL.md` — skill-facing usage contract
-5. `src/hermes_codex_image_skill/cli.py` — CLI entrypoint
-6. `src/hermes_codex_image_skill/codex_runner.py` — actual runtime logic
+4. `docs/VISUAL_QUICKSTART.md` — visual quickstart flow
+5. `skill/SKILL.md` — skill-facing usage contract
+6. `src/hermes_codex_image_skill/cli.py` — CLI entrypoint
+7. `src/hermes_codex_image_skill/codex_runner.py` — actual runtime logic
 
 ## What to tell a first-time user to run
 

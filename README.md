@@ -8,13 +8,30 @@ A polished, Python-first wrapper for **local Codex CLI image generation** that i
 
 > **What you get:** a small CLI + reusable skill script that checks local Codex login, runs `codex exec`, finds the generated image, copies it to a stable output path, and emits machine-readable JSON.
 
+## 3-minute install
+
+If you want the shortest safe path, run this first:
+
+```bash
+git clone https://github.com/techkwon/hermes-codex-image-skill.git
+cd hermes-codex-image-skill
+python3.11 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip setuptools wheel
+pip install -e .[dev]
+hermes-codex-image --help
+```
+
+If `hermes-codex-image --help` prints usage text, the install worked.
+
 ## Start here
 
 > **Beginner quick route**
 >
 > 1. Read [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md)
 > 2. If you prefer Korean, also read [docs/README.ko.md](docs/README.ko.md)
-> 3. Run the install commands exactly as written
+> 3. If you want the visual route, open [docs/VISUAL_QUICKSTART.md](docs/VISUAL_QUICKSTART.md)
+> 4. Run the install commands exactly as written
 >
 > **If you are handing this repo to Hermes/OpenClaw**
 >
