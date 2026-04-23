@@ -144,6 +144,7 @@ Choose one:
 - Korean guide → [README.ko.md](README.ko.md)
 - visual flow → [VISUAL_QUICKSTART.md](VISUAL_QUICKSTART.md)
 - troubleshooting → [TROUBLESHOOTING_QUICK.md](TROUBLESHOOTING_QUICK.md)
+- preview/share copy → [GITHUB_PREVIEW_COPY.md](GITHUB_PREVIEW_COPY.md)
 
 ---
 

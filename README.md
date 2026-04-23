@@ -14,6 +14,16 @@ A polished, Python-first wrapper for **local Codex CLI image generation** that i
 - **Hermes/OpenClaw users** who want to reuse a local Codex login for image generation
 - **Agents/automation workflows** that need predictable output files and JSON metadata
 
+## 5-step onboarding
+
+| Step | What to do | Success signal |
+|---|---|---|
+| 1 | Check Python | `python3.11 --version` shows 3.11+ |
+| 2 | Check Codex | `codex --version` and `codex login status` both work |
+| 3 | Install the repo | `pip install -e .[dev]` completes |
+| 4 | Verify the CLI | `hermes-codex-image --help` prints usage text |
+| 5 | Verify repo health | `make doctor` finishes successfully |
+
 ## 3-minute install
 
 If you want the shortest safe path, run this first:
@@ -57,6 +67,7 @@ If something fails, check these 5 first:
 
 Quick guide: [docs/TROUBLESHOOTING_QUICK.md](docs/TROUBLESHOOTING_QUICK.md)
 Beginner FAQ: [docs/FAQ.md](docs/FAQ.md)
+Preview copy: [docs/GITHUB_PREVIEW_COPY.md](docs/GITHUB_PREVIEW_COPY.md)
 
 ## Start here
 
