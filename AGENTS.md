@@ -107,6 +107,10 @@ If the user pastes this repository to Hermes and wants the agent to do setup, a 
 
 > Open this repository and install it for me like I am a first-time user. Check Python, check whether Codex is installed and logged in, set up the virtualenv, install the package, run lint/tests/build, then summarize exactly what worked and what still needs my action.
 
+Korean variant:
+
+> 이 저장소를 초심자 기준으로 설치해줘. Python 먼저 확인하고, Codex 설치 여부와 로그인 상태를 확인한 다음, 가상환경을 만들고, 패키지를 설치하고, lint/test/build까지 검증한 뒤 무엇이 성공했고 무엇이 내 수동 조치가 필요한지 정확히 알려줘.
+
 ## Guardrails
 
 - Prefer small, auditable changes.

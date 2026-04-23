@@ -8,6 +8,12 @@ A polished, Python-first wrapper for **local Codex CLI image generation** that i
 
 > **What you get:** a small CLI + reusable skill script that checks local Codex login, runs `codex exec`, finds the generated image, copies it to a stable output path, and emits machine-readable JSON.
 
+## Who is this for?
+
+- **First-time AI users** who want copy-paste install steps
+- **Hermes/OpenClaw users** who want to reuse a local Codex login for image generation
+- **Agents/automation workflows** that need predictable output files and JSON metadata
+
 ## 3-minute install
 
 If you want the shortest safe path, run this first:
@@ -71,6 +77,12 @@ Beginner FAQ: [docs/FAQ.md](docs/FAQ.md)
 
 ```text
 Open this repository and install it for me like I am a first-time user. Check Python first, check whether Codex is installed and logged in, create the virtualenv, install the package, run lint/tests/build, and then summarize exactly what worked and what still needs my action.
+```
+
+### 한국어 복붙 프롬프트
+
+```text
+이 저장소를 초심자 기준으로 설치해줘. Python 먼저 확인하고, Codex 설치 여부와 로그인 상태를 확인한 다음, 가상환경을 만들고, 패키지를 설치하고, lint/test/build까지 검증한 뒤 무엇이 성공했고 무엇이 내 수동 조치가 필요한지 정확히 알려줘.
 ```
 
 ---
