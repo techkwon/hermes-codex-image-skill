@@ -154,6 +154,7 @@ hermes-codex-image "Generate a minimal banana icon on a light background" --outp
 - `docs/HERMES_AGENT_INSTALL.md` → 영어 기준 자세한 설치 안내
 - `docs/README.ko.md` → 한국어 초심자 안내
 - `docs/VISUAL_QUICKSTART.md` → 빠르게 보는 시각형 설치 흐름
+- `docs/TROUBLESHOOTING_QUICK.md` → 가장 빠른 문제 원인 체크
 - `AGENTS.md` → 에이전트 전용 빠른 지침
 - `skill/SKILL.md` → 스킬 관점 설명
 - `docs/KNOWN_LIMITATIONS.md` → 과장 없이 한계 설명

@@ -24,6 +24,18 @@ hermes-codex-image --help
 
 If `hermes-codex-image --help` prints usage text, the install worked.
 
+## Troubleshooting in 30 seconds
+
+If something fails, check these 5 first:
+
+1. `python3.11 --version`
+2. `codex --version`
+3. `codex login status`
+4. `hermes-codex-image --help`
+5. `make doctor`
+
+Quick guide: [docs/TROUBLESHOOTING_QUICK.md](docs/TROUBLESHOOTING_QUICK.md)
+
 ## Start here
 
 > **Beginner quick route**
