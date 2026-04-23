@@ -10,13 +10,23 @@ A polished, Python-first wrapper for **local Codex CLI image generation** that i
 
 ## Start here
 
-### If you are a first-time human user
-- Read: [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md)
-- Then run the exact install commands from that guide
+> **Beginner quick route**
+>
+> 1. Read [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md)
+> 2. If you prefer Korean, also read [docs/README.ko.md](docs/README.ko.md)
+> 3. Run the install commands exactly as written
+>
+> **If you are handing this repo to Hermes/OpenClaw**
+>
+> 1. Tell the agent to read [AGENTS.md](AGENTS.md)
+> 2. Ask it to check Python, Codex install, and Codex login first
+> 3. Then ask it to install the repo and verify `ruff`, `pytest`, and `python -m build`
 
-### If you are handing this repo to Hermes/OpenClaw
-- Read: [AGENTS.md](AGENTS.md)
-- Then tell the agent to check Python, Codex install, Codex login, install the repo, and verify lint/tests/build
+### Copy-paste prompt for Hermes Agent
+
+```text
+Open this repository and install it for me like I am a first-time user. Check Python first, check whether Codex is installed and logged in, create the virtualenv, install the package, run lint/tests/build, and then summarize exactly what worked and what still needs my action.
+```
 
 ---
 
@@ -100,7 +110,8 @@ More detail: [docs/COMPARISON.md](docs/COMPARISON.md)
 ## Installation
 
 If you are completely new, start with [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md).
-That guide is written for both **human beginners** and **Hermes/OpenClaw agents**.
+If you prefer Korean, also read [docs/README.ko.md](docs/README.ko.md).
+Those guides are written for both **human beginners** and **Hermes/OpenClaw agents**.
 
 ### Option A — local editable install
 
