@@ -81,9 +81,10 @@ Explain the repo in one sentence like this:
 3. `docs/README.ko.md` — Korean beginner-friendly guide
 4. `docs/VISUAL_QUICKSTART.md` — visual quickstart flow
 5. `docs/TROUBLESHOOTING_QUICK.md` — fastest error triage
-6. `skill/SKILL.md` — skill-facing usage contract
-7. `src/hermes_codex_image_skill/cli.py` — CLI entrypoint
-8. `src/hermes_codex_image_skill/codex_runner.py` — actual runtime logic
+6. `docs/FAQ.md` — beginner questions answered quickly
+7. `skill/SKILL.md` — skill-facing usage contract
+8. `src/hermes_codex_image_skill/cli.py` — CLI entrypoint
+9. `src/hermes_codex_image_skill/codex_runner.py` — actual runtime logic
 
 ## What to tell a first-time user to run
 

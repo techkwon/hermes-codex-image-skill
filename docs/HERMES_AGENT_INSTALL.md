@@ -215,6 +215,7 @@ hermes-codex-image "Generate a minimal banana icon on a light background" --outp
 - `docs/README.ko.md` → Korean beginner guide
 - `docs/VISUAL_QUICKSTART.md` → visual quickstart flow
 - `docs/TROUBLESHOOTING_QUICK.md` → fastest failure triage
+- `docs/FAQ.md` → beginner questions answered quickly
 - `AGENTS.md` → short agent handoff instructions
 - `skill/SKILL.md` → skill-oriented contract
 - `docs/KNOWN_LIMITATIONS.md` → what this repo does not claim

@@ -24,6 +24,21 @@ hermes-codex-image --help
 
 If `hermes-codex-image --help` prints usage text, the install worked.
 
+### Example terminal output
+
+After a healthy install, `hermes-codex-image --help` should look roughly like this:
+
+```text
+usage: hermes-codex-image [-h] [-o OUTPUT_PATH] [--timeout TIMEOUT]
+                          [--metadata-json METADATA_PATH]
+                          [--extra-arg EXTRA_ARGS] [--version]
+                          prompt
+
+Generate an image through local Codex CLI and emit structured JSON.
+```
+
+After a healthy repo verification, `make doctor` should end with a successful build summary.
+
 ## Troubleshooting in 30 seconds
 
 If something fails, check these 5 first:
@@ -35,6 +50,7 @@ If something fails, check these 5 first:
 5. `make doctor`
 
 Quick guide: [docs/TROUBLESHOOTING_QUICK.md](docs/TROUBLESHOOTING_QUICK.md)
+Beginner FAQ: [docs/FAQ.md](docs/FAQ.md)
 
 ## Start here
 
