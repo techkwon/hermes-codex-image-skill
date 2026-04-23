@@ -30,6 +30,10 @@ Use this skill when you want Hermes/OpenClaw to generate an image through a **lo
 
 ## Usage
 
+If Hermes/OpenClaw or another agent is installing this repo for a beginner, read:
+- `AGENTS.md`
+- `docs/HERMES_AGENT_INSTALL.md`
+
 ```bash
 python3 skill/scripts/generate_with_codex.py \
   "Generate a premium SaaS hero image of a banana turning into academic charts" \

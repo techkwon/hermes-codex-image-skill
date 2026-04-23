@@ -2,7 +2,7 @@ PYTHON ?= python3
 VENV ?= .venv
 ACTIVATE = . $(VENV)/bin/activate
 
-.PHONY: install lint test build smoke clean
+.PHONY: install lint test build smoke doctor clean
 
 install:
 	$(PYTHON) -m venv $(VENV)
@@ -16,6 +16,12 @@ test:
 	$(ACTIVATE) && pytest
 
 build:
+	$(ACTIVATE) && python -m build
+
+doctor:
+	$(ACTIVATE) && hermes-codex-image --version
+	$(ACTIVATE) && ruff check .
+	$(ACTIVATE) && pytest
 	$(ACTIVATE) && python -m build
 
 smoke:

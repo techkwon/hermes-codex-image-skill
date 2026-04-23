@@ -8,6 +8,16 @@ A polished, Python-first wrapper for **local Codex CLI image generation** that i
 
 > **What you get:** a small CLI + reusable skill script that checks local Codex login, runs `codex exec`, finds the generated image, copies it to a stable output path, and emits machine-readable JSON.
 
+## Start here
+
+### If you are a first-time human user
+- Read: [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md)
+- Then run the exact install commands from that guide
+
+### If you are handing this repo to Hermes/OpenClaw
+- Read: [AGENTS.md](AGENTS.md)
+- Then tell the agent to check Python, Codex install, Codex login, install the repo, and verify lint/tests/build
+
 ---
 
 ## Why this repository exists
@@ -88,6 +98,9 @@ More detail: [docs/COMPARISON.md](docs/COMPARISON.md)
 ---
 
 ## Installation
+
+If you are completely new, start with [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md).
+That guide is written for both **human beginners** and **Hermes/OpenClaw agents**.
 
 ### Option A — local editable install
 
@@ -176,6 +189,10 @@ hermes-codex-image --help
 ## Hermes / OpenClaw usage
 
 The repository includes a reusable skill entrypoint under `skill/`.
+
+For an agent-friendly handoff, see:
+- [AGENTS.md](AGENTS.md)
+- [docs/HERMES_AGENT_INSTALL.md](docs/HERMES_AGENT_INSTALL.md)
 
 > **Packaging note:** the installable Python package focuses on the CLI/runtime code. Repository resources such as `skill/`, `docs/`, and example assets are intended for GitHub/source-distribution use.
 
